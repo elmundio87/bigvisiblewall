@@ -1,3 +1,9 @@
+Forked from https://code.google.com/p/bigvisiblewall/
+
+Changes;
+
+Added a yellow border to denote the building/sleeping status of a pipeline.
+
 = Building from source =
 
 Follow the most up to date instructions at: http://code.google.com/p/bigvisiblewall/wiki/HowToBuild
@@ -5,3 +11,4 @@ Follow the most up to date instructions at: http://code.google.com/p/bigvisiblew
 = Running the install =
 
 Follow the most up to date instructions at: http://code.google.com/p/bigvisiblewall/wiki/RunningTheServer
+
