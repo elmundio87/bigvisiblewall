@@ -10,7 +10,7 @@
     <property name="build.dir" value="${basedir}/build"/>
     <property name="test-reports.dir" value="${build.dir}/reports"/>
     <property name="compiled.code.dir" value="${build.dir}/compile"/>
-    <property name="release" value="0.1" />
+    <property name="build.number" value="SNAPSHOT" />
 
     <path id="prod.classpath">
         <fileset dir="${prod.lib.dir}" includes="*.jar"/>
@@ -58,7 +58,14 @@
     </target>
 
     <target name="dist" depends="test" description="Creates a ZIP containing the build code and all dependencies">
-        <zip destfile="${dist.dir}/bigvisiblewall-${release}-alldeps.zip">
+        <exec executable="git" outputproperty="build.branch">
+            <arg value="symbolic-ref"/>
+            <arg value="--short"/>
+            <arg value="-q"/>
+            <arg value="HEAD"/>
+        </exec>
+
+        <zip destfile="${dist.dir}/bigvisiblewall-${build.branch}-${build.number}.zip">
             <fileset dir="${dist.dir}" includes="*.jar"/>
             <fileset dir="${basedir}" includes="README" />
             <fileset dir="${prod.lib.dir}" includes="*.jar"/>
@@ -88,19 +95,4 @@
         </junit>
     </target>
 
-    <target name="tc" description="Runs the tests, commiting the changes to the local mercurial repo" depends="test">
-        <exec executable="hg" outputproperty="pending-changes">
-            <arg value="st"/>
-        </exec>
-
-        <echo>Pending Changes: ${pending-changes}</echo>
-
-        <input message="Enter a commit message..." addproperty="commit-message"/>
-        <echo>Commiting ${commit-message}</echo>
-
-        <exec executable="hg">
-            <arg value="commit"/>
-            <arg value="-m ${commit-message}"/>
-        </exec>
-    </target>
 </project>
