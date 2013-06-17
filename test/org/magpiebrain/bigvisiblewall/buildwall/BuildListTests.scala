@@ -40,7 +40,7 @@ class BuildListTests extends Specification with JUnit {
     "Display HTML for a working build" in {
       val expectedHtml =
         <ul class="builds">
-          <li class="build passed">
+          <li class="build passed building">
             <a class="project working" href="http://mybuild">My Super Project</a>
           </li>
         </ul>

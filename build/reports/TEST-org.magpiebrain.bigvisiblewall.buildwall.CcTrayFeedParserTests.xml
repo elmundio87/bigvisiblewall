@@ -1,93 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="adams-t520.caplin.com" name="org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests" tests="3" time="0.32" timestamp="2011-08-03T10:25:32">
+<testsuite errors="0" failures="0" hostname="DELLE6230_032" name="org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests" skipped="0" tests="3" time="0.323" timestamp="2013-06-17T09:25:43">
   <properties>
-    <property name="java.vendor" value="Apple Inc." />
+    <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
-    <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-    <property name="ant.file.bigvisiblewall" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build.xml" />
-    <property name="os.name" value="Mac OS X" />
+    <property name="ant.file.bigvisiblewall" value="C:\Users\edipple\Desktop\bigvisiblewall\build.xml" />
+    <property name="os.name" value="Windows 7" />
     <property name="ant.file.type.bigvisiblewall" value="file" />
-    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
-    <property name="scala-src.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/src" />
-    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
-    <property name="ant.home" value="/usr/share/ant" />
-    <property name="java.runtime.version" value="1.6.0_26-b03-383-11A511" />
-    <property name="user.name" value="edmunddipple" />
-    <property name="awt.nativeDoubleBuffering" value="true" />
-    <property name="build.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build" />
-    <property name="runtime.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/runtime" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_21\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="scala-src.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/src" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\bin\apache-ant-1.9.1" />
+    <property name="java.runtime.version" value="1.7.0_21-b11" />
+    <property name="user.name" value="edipple" />
+    <property name="build.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/build" />
+    <property name="runtime.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/runtime" />
     <property name="user.language" value="en" />
-    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin" />
     <property name="ant.project.default-target" value="test" />
     <property name="ant.project.name" value="bigvisiblewall" />
-    <property name="java.version" value="1.6.0_26" />
+    <property name="java.version" value="1.7.0_21" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
-    <property name="sun.cpu.isalist" value="" />
-    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="file.separator" value="/" />
+    <property name="file.separator" value="\" />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="test.lib.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test" />
-    <property name="java.class.version" value="50.0" />
-    <property name="user.country" value="US" />
-    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
-    <property name="dist.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/dist" />
+    <property name="test.lib.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/lib/test" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="GB" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_21\jre" />
+    <property name="dist.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/dist" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="ant.file" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build.xml" />
-    <property name="os.version" value="10.7" />
-    <property name="path.separator" value=":" />
-    <property name="java.vm.version" value="20.1-b02-383" />
+    <property name="ant.file" value="C:\Users\edipple\Desktop\bigvisiblewall\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.21-b01" />
     <property name="release" value="0.1" />
-    <property name="web.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/web" />
-    <property name="ant.library.dir" value="/usr/share/ant/lib" />
-    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="user.variant" value="" />
+    <property name="web.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/web" />
+    <property name="ant.library.dir" value="C:\bin\apache-ant-1.9.1\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
-    <property name="awt.toolkit" value="apple.awt.CToolkit" />
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="user.home" value="/Users/edmunddipple" />
-    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
-    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
-    <property name="java.vendor.url" value="http://www.apple.com/" />
-    <property name="java.vm.vendor" value="Apple Inc." />
-    <property name="gopherProxySet" value="false" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\edipple" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ConEmu\ConEmu;C:\Program Files\ConEmu;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Access\Advanced\Wave\Gemalto\Access Client\v5\;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_21\bin;C:\Program Files (x86)\NUnit 2.6.2\bin;C:\Program Files (x86)\Microsoft Team Foundation Server 2012 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2012 Power Tools\Best Practices Analyzer\;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\alias;C:\bin;C:\bin\git-tf;C:\Program Files (x86)\Git\bin;C:\bin\apache-ant-1.9.1\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests filtertrace=true haltOnError=false haltOnFailure=true showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build/reports/TEST-org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter crashfile=/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/junitvmwatcher7877000267558662953.properties propsfile=/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/junit1930939759452227979.properties" />
-    <property name="java.class.path" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/commons-codec-1.3.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/commons-httpclient-3.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/commons-logging-1.1.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/jetty-continuation-7.0.0.M1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/jetty-http-7.0.0.M1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/jetty-io-7.0.0.M1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/jetty-server-7.0.0.M1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/jetty-util-7.0.0.M1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/scala-compiler.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/scala-library.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod/servlet-api-2.5-20081211.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/commons-collections-3.2.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/commons-io-1.4.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/commons-lang-2.4.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/cssparser-0.9.5.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/htmlunit-2.5.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/htmlunit-core-js-2.5.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/junit-4.6.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/nekohtml-1.9.12.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/sac-1.3.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/serializer-2.7.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/specs-1.5.0.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/webdriver-common-r1039.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/webdriver-htmlunit-r1039.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/xalan-2.7.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/xercesImpl-2.8.1.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/test/xml-apis-1.3.04.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/dist/bigvisiblewall-scala.jar:/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/dist/scala-test.jar:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests filtertrace=true haltOnError=false haltOnFailure=true showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\edipple\Desktop\bigvisiblewall\build\reports\TEST-org.magpiebrain.bigvisiblewall.buildwall.CcTrayFeedParserTests.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter crashfile=C:\Users\edipple\Desktop\bigvisiblewall\junitvmwatcher3297172020494282936.properties propsfile=C:\Users\edipple\Desktop\bigvisiblewall\junit8553272711961183034.properties" />
+    <property name="java.class.path" value="C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\commons-codec-1.3.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\commons-httpclient-3.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\commons-logging-1.1.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\jetty-continuation-7.0.0.M1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\jetty-http-7.0.0.M1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\jetty-io-7.0.0.M1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\jetty-server-7.0.0.M1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\jetty-util-7.0.0.M1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\scala-compiler.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\scala-library.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\prod\servlet-api-2.5-20081211.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\commons-collections-3.2.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\commons-io-1.4.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\commons-lang-2.4.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\cssparser-0.9.5.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\htmlunit-2.5.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\htmlunit-core-js-2.5.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\junit-4.6.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\nekohtml-1.9.12.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\sac-1.3.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\serializer-2.7.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\specs-1.5.0.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\webdriver-common-r1039.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\webdriver-htmlunit-r1039.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\xalan-2.7.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\xercesImpl-2.8.1.jar;C:\Users\edipple\Desktop\bigvisiblewall\lib\test\xml-apis-1.3.04.jar;C:\Users\edipple\Desktop\bigvisiblewall\dist\bigvisiblewall-scala.jar;C:\Users\edipple\Desktop\bigvisiblewall\dist\scala-test.jar;C:\bin\apache-ant-1.9.1\lib\ant-launcher.jar;C:\bin\apache-ant-1.9.1\lib\ant.jar;C:\bin\apache-ant-1.9.1\lib\ant-junit.jar;C:\bin\apache-ant-1.9.1\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.1 compiled on May 15 2013" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
-    <property name="java.vm.specification.version" value="1.0" />
+    <property name="java.vm.specification.version" value="1.7" />
     <property name="sun.cpu.endian" value="little" />
-    <property name="sun.os.patch.level" value="unknown" />
-    <property name="java.io.tmpdir" value="/var/folders/wz/_72ksd8x2k9gn1cfcrm745dm0000gn/T/" />
-    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
-    <property name="mrj.build" value="11A511" />
-    <property name="os.arch" value="x86_64" />
-    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
-    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
-    <property name="mrj.version" value="1070.1.6.0_26-383" />
-    <property name="user.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src" />
-    <property name="test-reports.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build/reports" />
-    <property name="line.separator" value="&#xa;" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\edipple\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\edipple\Desktop\bigvisiblewall" />
+    <property name="test-reports.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/build/reports" />
+    <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="compiled.code.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/build/compile" />
-    <property name="basedir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src" />
-    <property name="prod.lib.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/lib/prod" />
-    <property name="ant.java.version" value="1.6" />
-    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
-    <property name="file.encoding" value="MacRoman" />
-    <property name="scala.test.dir" value="/Users/edmunddipple/ECLIPSE/BigVisibleWall_caplin_src/test" />
-    <property name="java.specification.version" value="1.6" />
-    <property name="ant.project.invoked-targets" value="dist" />
+    <property name="compiled.code.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/build/compile" />
+    <property name="basedir" value="C:\Users\edipple\Desktop\bigvisiblewall" />
+    <property name="prod.lib.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/lib/prod" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\bin\apache-ant-1.9.1\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="scala.test.dir" value="C:\Users\edipple\Desktop\bigvisiblewall/test" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="build,dist" />
   </properties>
-  <testcase classname="598461443" name="Parse single passing build" time="0.021" />
-  <testcase classname="1675553600" name="Parse single failing build" time="0.0030" />
-  <testcase classname="1076292089" name="Parse multiple builds for multiple projects" time="0.0030" />
+  <testcase classname="33370775" name="Parse single passing build" time="0.016" />
+  <testcase classname="369383558" name="Parse single failing build" time="0.001" />
+  <testcase classname="2001719476" name="Parse multiple builds for multiple projects" time="0.004" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
