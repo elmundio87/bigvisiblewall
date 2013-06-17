@@ -34,7 +34,7 @@ class PrefixFilteringBuildSource(val delegate: BuildSource, val prefixes: List[S
     prefixes match {
       case Nil => List()
       case x :: xs => {
-        buildsToFilter.filter(_.name.startsWith(x)) ++ filter(xs, buildsToFilter)
+        buildsToFilter.filter(_.name.startsWith(x.replaceAll("%20"," "))) ++ filter(xs, buildsToFilter)
       }
     }
   }
