@@ -11,6 +11,7 @@
     <property name="test-reports.dir" value="${build.dir}/reports"/>
     <property name="compiled.code.dir" value="${build.dir}/compile"/>
     <property name="build.number" value="SNAPSHOT" />
+    <property name="deploy-repo" value="//netshare" />
 
     <path id="prod.classpath">
         <fileset dir="${prod.lib.dir}" includes="*.jar"/>
@@ -93,6 +94,17 @@
                 </fileset>
             </batchtest>
         </junit>
+    </target>
+
+    <target name="deploy" depends="">
+        <exec executable="git" outputproperty="build.branch">
+            <arg value="symbolic-ref"/>
+            <arg value="--short"/>
+            <arg value="-q"/>
+            <arg value="HEAD"/>
+        </exec>
+
+        <copy file="${dist.dir}/bigvisiblewall-${build.branch}-${build.number}.zip" tofile="${deploy.repo}/builds/BigVisibleWall/bigvisiblewall-${build.branch}-${build.number}/bigvisiblewall-${build.branch}-${build.number}.zip"/>
     </target>
 
 </project>
