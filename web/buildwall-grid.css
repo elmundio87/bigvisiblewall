@@ -1,5 +1,7 @@
-li.build {
+.build {
 	float:  left;
-	width: 131px;
-	margin: 2px;	
+	height: 29px;
+	width: 140px !important;
+	padding: 10px 5px;
+	margin: 0 0 5px 5px;
 }

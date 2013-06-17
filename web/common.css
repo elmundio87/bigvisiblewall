@@ -6,7 +6,7 @@
 }
 
 a {
-    text-decoration: none;
+    	text-decoration: none;
 }
 
 body {
@@ -14,48 +14,35 @@ body {
 	overflow:hidden;
 }
 
-.builds {
-	margin: 2px;
-}
-
 .build .project {
-   
-word-wrap: break-word;
-
-
+	word-wrap: break-word;
 }
 
 li.build {
 	list-style-type: none;
-	padding: 10px 5px;
-	margin: 0 0 15px 15px;
-	height: 29px;
-	width: 140px !important;
 	vertical-align: middle;
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;	
+	border-radius: 7px;	
 }
 
 .build {
 	text-align: center;
 	font-weight: bold;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-box-align: stretch;
+        	display: -webkit-box;
+        	-webkit-box-orient: vertical;
+        	-webkit-box-align: stretch;
 	-webkit-box-pack: center;
 	-moz-box-orient: vertical;
 	-moz-box-align: stretch;
 	-moz-box-pack: center;
-	
 }
 
 
 ul.steps {
-    display: none;
+    	display: none;
 }
 
 li.build:hover {
-    text-decoration: underline;
+  	text-decoration: underline;
 }
 
 .passed {
@@ -83,12 +70,17 @@ li.build:hover {
 	border-width:5px;
 	border-color:yellow;
 	-webkit-box-shadow:inset 0 0 10px #000000;
-
-
 }
 
-
-
 .unknown {
+	display:none;
 	background: gray;
+}
+
+.passed a{
+	color: black !important;
+}
+
+.failed a{
+	color: white !important;
 }
