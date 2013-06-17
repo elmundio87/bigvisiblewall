@@ -12,6 +12,8 @@
     <property name="compiled.code.dir" value="${build.dir}/compile"/>
     <property name="build.number" value="SNAPSHOT" />
     <property name="deploy-repo" value="//netshare" />
+    <property name="build.branch" value="master" />
+    
 
     <path id="prod.classpath">
         <fileset dir="${prod.lib.dir}" includes="*.jar"/>
@@ -59,13 +61,6 @@
     </target>
 
     <target name="dist" depends="test" description="Creates a ZIP containing the build code and all dependencies">
-        <exec executable="git" outputproperty="build.branch">
-            <arg value="symbolic-ref"/>
-            <arg value="--short"/>
-            <arg value="-q"/>
-            <arg value="HEAD"/>
-        </exec>
-
         <zip destfile="${dist.dir}/bigvisiblewall-${build.branch}-${build.number}.zip">
             <fileset dir="${dist.dir}" includes="*.jar"/>
             <fileset dir="${basedir}" includes="README" />
@@ -96,14 +91,7 @@
         </junit>
     </target>
 
-    <target name="deploy" depends="">
-        <exec executable="git" outputproperty="build.branch">
-            <arg value="symbolic-ref"/>
-            <arg value="--short"/>
-            <arg value="-q"/>
-            <arg value="HEAD"/>
-        </exec>
-
+    <target name="deploy" depends="dist">
         <copy file="${dist.dir}/bigvisiblewall-${build.branch}-${build.number}.zip" tofile="${deploy.repo}/builds/BigVisibleWall/bigvisiblewall-${build.branch}-${build.number}/bigvisiblewall-${build.branch}-${build.number}.zip"/>
     </target>
 
