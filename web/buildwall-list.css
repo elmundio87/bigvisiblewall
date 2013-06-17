@@ -1,5 +1,25 @@
 .build {
-	font-size: 275%;
 	width: 98%;
 	margin: 2px;
+	border-width:0px;
+	height:24px;
+}
+
+a {
+	font-size:10px;
+}
+
+.passed.building {
+	background-image: url("loading-black.gif");
+}
+
+.failed.building {
+	background-image: url("loading-white.gif");
+
+}
+
+.building {
+	background-size: 20px 20px;
+	background-repeat:no-repeat;
+	background-position: right 4px top 2px ;
 }
