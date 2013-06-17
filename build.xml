@@ -54,7 +54,7 @@
         <delete dir="${build.dir}"/>
     </target>
 
-    <target name="build" depends="clean">
+    <target name="build">
         <mkdir dir="${dist.dir}"/>
         <compile.and.jar src="${scala-src.dir}" classpathref="prod.classpath"
                          dest="${dist.dir}/bigvisiblewall-scala.jar"/>
