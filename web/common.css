@@ -3,6 +3,7 @@
 	margin: 0;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-size:15px;
+	cursor: none !important;
 }
 
 a {
@@ -12,6 +13,8 @@ a {
 body {
 	background: #000;
 	overflow:hidden;
+
+	cursor: none !important;
 }
 
 .build .project {
