@@ -42,7 +42,7 @@ object Main {
       println("No BASIC auth settings specified. Use -http.username and -http.password if you need this.")
     }
 
-    new WallServer(webClient, null, 8080, new File("./web/").getAbsolutePath).start
+    new WallServer(webClient, null, 7777, new File("./web/").getAbsolutePath).start
   }
 
 }
