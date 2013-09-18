@@ -19,7 +19,7 @@ a {
 }
 
 .building {
-	background-size: 20px 20px;
+	background-size: 48px auto;
 	background-repeat:no-repeat;
 	background-position: right 4px top 2px ;
 }
