@@ -2,11 +2,11 @@
 	width: 98%;
 	margin: 2px;
 	border-width:0px;
-	height:24px;
+	height:50px;
 }
 
 a {
-	font-size:10px;
+	font-size:24px;
 }
 
 .passed.building {

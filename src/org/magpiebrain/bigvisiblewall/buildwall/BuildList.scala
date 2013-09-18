@@ -32,6 +32,9 @@ class BuildList(val builds: List[Build], val displayType: String) {
           <meta http-equiv="refresh" content="30" />
       </head>
       <body>
+        <div class="server_info">Build results from Jenkins at 
+          <a src="http://jenkins.fourth.local">http://jenkins.fourth.local</a>
+        </div>
         { content(builds) }
       </body>
     </html>

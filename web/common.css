@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-size:15px;
+	font-size:18px;
 	cursor: none !important;
 }
 
@@ -24,7 +24,7 @@ body {
 li.build {
 	list-style-type: none;
 	vertical-align: middle;
-	border-radius: 7px;	
+	border-radius: 12px;	
 }
 
 .build {
@@ -78,5 +78,17 @@ li.build:hover {
 }
 
 .failed a{
+	color: white !important;
+}
+
+.server_info{
+	width:100%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.server_info a{
+	font-size: 20px; !important;
 	color: white !important;
 }
